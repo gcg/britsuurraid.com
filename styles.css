@@ -258,13 +258,10 @@ html.js .stat-sticker:not(.is-in) { opacity: 0; transform: scale(.4) rotate(-30d
 @media (min-width: 900px) { .mosaic { grid-template-columns: 1.25fr 1fr 1fr .95fr; gap: 28px; } }
 .pola { background: var(--paper); padding: 10px 10px 40px; box-shadow: var(--shadow); transform: rotate(var(--r, 0deg)); position: relative; border-radius: 2px; }
 .pola::before { content: ""; position: absolute; top: -12px; left: 50%; width: 84px; height: 24px; margin-left: -42px; background: rgba(255, 227, 154, .85); transform: rotate(var(--tr, -4deg)); }
-.pola .ph { display: flex; align-items: flex-end; padding: 12px; font: 600 12px/1 var(--body); letter-spacing: .08em; text-transform: uppercase; background: linear-gradient(160deg, var(--pink-soft), #F9BCD5 60%, #F4A5C6); }
 .pola img { display: block; width: 100%; height: auto; }
 .pola figcaption { position: absolute; left: 10px; right: 10px; bottom: 9px; font: 17px/1.2 var(--marker); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.m1 .ph { aspect-ratio: 4 / 5; }
-.m2 { margin-top: 64px; } .m2 .ph { aspect-ratio: 1; background: linear-gradient(160deg, var(--butter-soft), var(--butter)); }
-.m3 .ph { aspect-ratio: 3 / 4; }
-.m4 { margin-top: 96px; } .m4 .ph { aspect-ratio: 4 / 5; background: linear-gradient(160deg, var(--ink), var(--night-2)); color: var(--blush); }
+.m2 { margin-top: 64px; }
+.m4 { margin-top: 96px; }
 
 /* newsroom: TV lower thirds */
 .lower-thirds { display: grid; gap: 14px; }
