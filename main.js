@@ -26,25 +26,12 @@
   (document.fonts ? document.fonts.ready : Promise.resolve()).then(() => requestAnimationFrame(start));
   setTimeout(start, 1500);
 
-  // ---- reveal on scroll (+ stickers popping on, + count-up numbers)
-  const countUp = root => {
-    if (reduce) return;
-    $$('[data-count]', root).forEach(el => {
-      const end = +el.dataset.count, t0 = performance.now(), dur = 1100;
-      const tick = now => {
-        const p = Math.min(1, (now - t0) / dur);
-        el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
-        if (p < 1) requestAnimationFrame(tick);
-      };
-      requestAnimationFrame(tick);
-    });
-  };
-  const reveals = $$('.reveal, .stat-sticker');
+  // ---- reveal on scroll
+  const reveals = $$('.reveal');
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver(entries => entries.forEach(e => {
       if (!e.isIntersecting) return;
       e.target.classList.add('is-in');
-      countUp(e.target);
       io.unobserve(e.target);
     }), { rootMargin: '0px 0px -8% 0px', threshold: 0.12 });
     reveals.forEach(el => io.observe(el));
