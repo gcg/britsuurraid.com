@@ -2,7 +2,7 @@
 
 Brit Suurraid's personal site: a single static page in English (`/`) and Estonian (`/et/`). No build step, no dependencies.
 
-Positioning, in Brit's own words: **"I give people a reason to show up."** Community building leads, and online strength coaching is the site's main call to action. The waitlist opens via Instagram DM until her PT certificate lands in November 2026.
+Positioning, in Brit's own words: **"I give people a reason to show up."** Community building leads, and strength coaching (in person and online) is the site's main call to action. The waitlist runs via Instagram DM.
 
 The page reads like a community noticeboard:
 - **Hero:** a "HELLO my name is" name tag on a taped polaroid.
@@ -55,7 +55,7 @@ Before launch:
 - **Photos.** Swap the four polaroid placeholders (`.pola .ph`) for her event photos (Halloween, Italian food night, Aegviidu, Instagram). A photo of her training and podcast cover art would lift the coaching and podcast sections too.
 - **Coaching package.** Confirm the "What you get" list with Brit (marked `todo`).
 - **Job title.** Confirm "tegevtoimetaja" is the right Estonian title for Executive Editor: `grep -n tegevtoimeta et/index.html`.
-- **After November:** once the PT certificate is awarded, update "certified November 2026" and "from Nov" in both pages and in the CV.
+- **After November:** the site already treats the PT certificate as awarded; update the CV ("certifying in November 2026") once it lands.
 
 ## CV
 
