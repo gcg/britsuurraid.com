@@ -55,7 +55,7 @@ Before launch:
 - **Photos.** Swap the four polaroid placeholders (`.pola .ph`) for her event photos (Halloween, Italian food night, Aegviidu, Instagram). A photo of her training and podcast cover art would lift the coaching and podcast sections too.
 - **Coaching package.** Confirm the "What you get" list with Brit (marked `todo`).
 - **Job title.** Confirm "tegevtoimetaja" is the right Estonian title for Executive Editor: `grep -n tegevtoimeta et/index.html`.
-- **After November:** the site already treats the PT certificate as awarded; update the CV ("certifying in November 2026") once it lands.
+- **After November:** the site and public CVs already treat the PT certificate as awarded; the private CVs still say "certifying in November 2026". Update them once it lands.
 
 ## CV
 
