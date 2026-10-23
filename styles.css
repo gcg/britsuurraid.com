@@ -251,6 +251,7 @@ html.js .fork-card.reveal:not(.is-in) { opacity: 0; transform: translateY(28px) 
 .pola img { display: block; width: 100%; height: auto; }
 .pola figcaption { position: absolute; left: 10px; right: 10px; bottom: 9px; font: 17px/1.2 var(--marker); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .m2 { margin-top: 64px; }
+.head-photo { margin-top: 40px; max-width: 460px; }
 .m4 { margin-top: 96px; }
 
 /* newsroom: TV lower thirds */
@@ -335,6 +336,9 @@ html.js .ecg:not(.is-in) path { stroke-dashoffset: 1; }
 .pin { position: absolute; top: -14px; left: 50%; width: 28px; height: 28px; margin-left: -14px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #7A3E8E, var(--ink) 70%); box-shadow: 0 6px 10px -4px rgba(42, 20, 54, .6); }
 .contact-title { font-size: clamp(44px, 7.5vw, 100px); }
 .flyer .lead { margin-top: 22px; color: var(--muted-ink); }
+.flyer-photo { margin: 0 0 32px; }
+@media (min-width: 760px) { .flyer-photo { float: right; width: 44%; margin: 0 0 24px 36px; } }
+.tearoffs { clear: both; }
 .take-one { margin-top: 40px; font: 22px/1 var(--marker); color: var(--pink-deep); transform: rotate(-3deg); display: inline-block; }
 .tearoffs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); margin: 14px calc(-1 * clamp(22px, 5vw, 64px)) 0; border-top: 2px dashed rgba(42, 20, 54, .35); }
 .tearoffs li + li { border-left: 2px dashed rgba(42, 20, 54, .35); }
