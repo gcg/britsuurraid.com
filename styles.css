@@ -190,7 +190,10 @@ html.paused *, html.paused *::before, html.paused *::after { animation-play-stat
 
 /* two ways to work with me: big pinned cards */
 .work { background: var(--paper); }
-.work-head { max-width: 860px; margin-bottom: clamp(44px, 6vw, 68px); }
+.work-top { display: grid; gap: 48px; margin-bottom: clamp(56px, 7vw, 80px); }
+@media (min-width: 880px) { .work-top { grid-template-columns: minmax(0, 1fr) 280px; gap: 64px; align-items: center; } }
+.work-head { max-width: 860px; }
+.work-photo { margin: 0; width: min(100%, 280px); }
 .work-head .lead { margin-top: 20px; color: var(--muted-ink); }
 .fork { display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px; }
 @media (min-width: 880px) { .fork { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; } }
