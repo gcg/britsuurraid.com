@@ -2,16 +2,16 @@
 
 Brit Suurraid's personal site: a single static page in English (`/`) and Estonian (`/et/`). No build step, no dependencies.
 
-Positioning, in Brit's own words: **"I give people a reason to show up."** Community building leads, and strength coaching (in person and online) is the site's main call to action. The waitlist runs via Instagram DM.
+Positioning, in Brit's own words: **"I give people a reason to show up."** She's a certified personal trainer, and strength coaching (in person and online) leads the page and is its main call to action. The waitlist runs via Instagram DM to her fitness account [@britigatrennis](https://www.instagram.com/britigatrennis/); [@britsuurraid](https://www.instagram.com/britsuurraid/) is her personal account.
 
 The page reads like a community noticeboard:
-- **Hero:** a "HELLO my name is" name tag on a taped polaroid.
+- **Hero:** a "HELLO my name is" name tag on a taped polaroid of Brit in the gym.
 - **What's on:** a ticker.
+- **Coaching:** the offer, the PT certificate, her training log and the pull-up photo.
 - **Two ways to work together:** pinned cards for coaching (Train with me) and companies (Build with me).
-- **Community:** the Stay Larsen story, stat stickers, a long table whose 16 seats fill as you scroll, and polaroid photo slots.
-- **Newsroom:** five years at TV3.
-- **Coaching:** the offer, the PT certificate and her training log.
 - **Podcast:** Toss väljas, plus the archive.
+- **Community:** the Stay Larsen story, a long table whose 16 seats fill as you scroll, and polaroid photos.
+- **Newsroom:** five years at TV3.
 - **Freelance clients.**
 - **Contact:** a flyer with tear-off strips. There's deliberately no form: contact goes through Instagram DM, LinkedIn or email, so the site stays fully static.
 - **Fitness touches:** a floating heart-rate pill, a heartbeat line, a PT ring that fills as you scroll, and the training log.

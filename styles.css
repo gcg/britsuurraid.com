@@ -340,7 +340,7 @@ html.js .ecg:not(.is-in) path { stroke-dashoffset: 1; }
 @media (min-width: 760px) { .flyer-photo { float: right; width: 44%; margin: 0 0 24px 36px; } }
 .tearoffs { clear: both; }
 .take-one { margin-top: 40px; font: 22px/1 var(--marker); color: var(--pink-deep); transform: rotate(-3deg); display: inline-block; }
-.tearoffs { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); margin: 14px calc(-1 * clamp(22px, 5vw, 64px)) 0; border-top: 2px dashed rgba(42, 20, 54, .35); }
+.tearoffs { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); margin: 14px calc(-1 * clamp(22px, 5vw, 64px)) 0; border-top: 2px dashed rgba(42, 20, 54, .35); }
 .tearoffs li + li { border-left: 2px dashed rgba(42, 20, 54, .35); }
 .tearoffs a {
   display: flex; align-items: center; justify-content: center; min-height: 230px; padding: 18px 4px; text-decoration: none;
@@ -369,6 +369,10 @@ html.js .ecg:not(.is-in) path { stroke-dashoffset: 1; }
 .offer-box li { position: relative; padding-left: 26px; }
 .offer-box li::before { content: ""; position: absolute; left: 0; top: .5em; width: 12px; height: 12px; border-radius: 50%; background: var(--pink); }
 .offer-box.butter li::before { background: var(--butter); box-shadow: 0 0 0 1.5px var(--ink); }
+.coach-story { display: grid; gap: 16px; max-width: 38em; }
+.pull { margin: 8px 0; font: italic 400 clamp(24px, 2.8vw, 34px)/1.2 var(--serif); letter-spacing: -.01em; color: var(--pink-deep); text-wrap: balance; }
+.coach-close { max-width: 38em; }
+.coach-close strong { font-weight: 700; }
 .coach-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; }
 .coach-cta .text-link { font-size: 16px; }
 
