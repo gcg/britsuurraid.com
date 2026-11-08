@@ -1,0 +1,430 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T17:30:31.356422+00:00",
+  "title": "Design System: Brit Suurraid",
+  "extensions": {
+    "colorMeta": {
+      "blush": {
+        "role": "neutral",
+        "displayName": "Blush",
+        "canonical": "#FFF0F4",
+        "tonalRamp": [
+          "#534456",
+          "#8C7D8B",
+          "#C6B6C0",
+          "#FFF0F4",
+          "#FFF4F7",
+          "#FFF8FA",
+          "#FFFBFC",
+          "#FFFEFE"
+        ]
+      },
+      "blush-2": {
+        "role": "neutral",
+        "displayName": "Blush Deep",
+        "canonical": "#FFDDE9",
+        "tonalRamp": [
+          "#533F54",
+          "#8C7486",
+          "#C6A8B7",
+          "#FFDDE9",
+          "#FFE6EE",
+          "#FFEEF4",
+          "#FFF6FA",
+          "#FFFCFD"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#FFFFFF",
+        "tonalRamp": [
+          "#534759",
+          "#8C8490",
+          "#C6C2C8",
+          "#FFFFFF",
+          "#FFFFFF",
+          "#FFFFFF",
+          "#FFFFFF",
+          "#FFFFFF"
+        ]
+      },
+      "pink": {
+        "role": "primary",
+        "displayName": "Bubblegum Pastel",
+        "canonical": "#F7A8C8",
+        "tonalRamp": [
+          "#51324C",
+          "#885975",
+          "#C0809E",
+          "#F7A8C8",
+          "#F9BED6",
+          "#FBD4E4",
+          "#FDE9F1",
+          "#FEF6FA"
+        ]
+      },
+      "pink-deep": {
+        "role": "primary",
+        "displayName": "Raspberry Ink",
+        "canonical": "#B5175E",
+        "tonalRamp": [
+          "#410D31",
+          "#681040",
+          "#8E144F",
+          "#B5175E",
+          "#C85186",
+          "#DA8BAE",
+          "#ECC5D7",
+          "#F8E8EF"
+        ]
+      },
+      "pink-soft": {
+        "role": "primary",
+        "displayName": "Petal",
+        "canonical": "#FFD3E2",
+        "tonalRamp": [
+          "#533C52",
+          "#8C6E82",
+          "#C6A1B2",
+          "#FFD3E2",
+          "#FFDEE9",
+          "#FFE9F0",
+          "#FFF4F8",
+          "#FFFBFC"
+        ]
+      },
+      "butter": {
+        "role": "secondary",
+        "displayName": "Butter",
+        "canonical": "#FFE39A",
+        "tonalRamp": [
+          "#534040",
+          "#8C765E",
+          "#C6AD7C",
+          "#FFE39A",
+          "#FFEAB3",
+          "#FFF1CC",
+          "#FFF8E6",
+          "#FFFCF5"
+        ]
+      },
+      "butter-soft": {
+        "role": "secondary",
+        "displayName": "Butter Cream",
+        "canonical": "#FFF3CC",
+        "tonalRamp": [
+          "#53444C",
+          "#8C7E77",
+          "#C6B9A2",
+          "#FFF3CC",
+          "#FFF6D9",
+          "#FFF9E6",
+          "#FFFCF2",
+          "#FFFEFA"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Plum Ink",
+        "canonical": "#2A1436",
+        "tonalRamp": [
+          "#1E0C27",
+          "#220F2C",
+          "#261231",
+          "#2A1436",
+          "#5F4F68",
+          "#948A9A",
+          "#CAC4CD",
+          "#EAE8EB"
+        ]
+      },
+      "muted-ink": {
+        "role": "neutral",
+        "displayName": "Faded Plum",
+        "canonical": "#6E5470",
+        "tonalRamp": [
+          "#2F1C36",
+          "#442F49",
+          "#59425C",
+          "#6E5470",
+          "#927F94",
+          "#B6AAB8",
+          "#DBD4DB",
+          "#F0EEF1"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night Plum",
+        "canonical": "#2B1238",
+        "tonalRamp": [
+          "#1E0C28",
+          "#220E2D",
+          "#271032",
+          "#2B1238",
+          "#604D6A",
+          "#95889C",
+          "#CAC4CD",
+          "#EAE7EB"
+        ]
+      },
+      "night-2": {
+        "role": "neutral",
+        "displayName": "Night Plum Raised",
+        "canonical": "#3B1D4B",
+        "tonalRamp": [
+          "#220F2C",
+          "#2A1436",
+          "#331841",
+          "#3B1D4B",
+          "#6C5678",
+          "#9D8EA5",
+          "#CEC6D2",
+          "#EBE8ED"
+        ]
+      },
+      "on-night": {
+        "role": "neutral",
+        "displayName": "Night Blush",
+        "canonical": "#FFE9F1",
+        "tonalRamp": [
+          "#534256",
+          "#8C7A8A",
+          "#C6B1BD",
+          "#FFE9F1",
+          "#FFEEF4",
+          "#FFF4F8",
+          "#FFFAFC",
+          "#FFFDFE"
+        ]
+      },
+      "muted-night": {
+        "role": "neutral",
+        "displayName": "Lilac Mist",
+        "canonical": "#D2BBDA",
+        "tonalRamp": [
+          "#483650",
+          "#76627E",
+          "#A48FAC",
+          "#D2BBDA",
+          "#DDCCE3",
+          "#E8DDEC",
+          "#F4EEF6",
+          "#FAF8FB"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "hero-name": {
+        "displayName": "Hero name",
+        "purpose": "Brit's name in the hero only."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "Chapter headlines."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Card and podcast titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Client names, lower thirds, highlight figures."
+      },
+      "accent-serif": {
+        "displayName": "Tender word",
+        "purpose": "One emphasised word inside a display line."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Intro paragraph under a headline."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase eyebrows, kickers and metadata."
+      },
+      "marker": {
+        "displayName": "Marker",
+        "purpose": "Handwritten notes: captions, name tag, scribbles."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pinned",
+        "value": "0 18px 40px -18px rgba(42,20,54,.45)",
+        "purpose": "Shared shadow for anything pinned to the board."
+      },
+      {
+        "name": "flyer",
+        "value": "0 30px 60px -28px rgba(42,20,54,.55)",
+        "purpose": "Contact flyer."
+      },
+      {
+        "name": "podcast-cover",
+        "value": "0 40px 80px -30px rgba(0,0,0,.6)",
+        "purpose": "Podcast cover art on night."
+      },
+      {
+        "name": "client-card",
+        "value": "0 12px 26px -20px rgba(42,20,54,.5)",
+        "purpose": "Light lift for client tiles."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.2,.7,.2,1)",
+        "purpose": "Default easing for reveals and state changes."
+      },
+      {
+        "name": "pop",
+        "value": "cubic-bezier(.3,1.5,.5,1)",
+        "purpose": "Overshoot for pinned objects, seats and tear-offs."
+      },
+      {
+        "name": "reveal",
+        "value": "opacity/transform .8s, staggered 90ms",
+        "purpose": "Scroll reveals; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "xs",
+        "value": "480px"
+      },
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "880px"
+      },
+      {
+        "name": "lg",
+        "value": "960px"
+      },
+      {
+        "name": "nav",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main call to action, e.g. Join the waitlist.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Join the waitlist</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font:600 16px/1 'Hanken Grotesk',system-ui,sans-serif;text-decoration:none;border:1.5px solid #2A1436;cursor:pointer;transition:transform .25s cubic-bezier(.2,.7,.2,1),background .25s,color .25s,border-color .25s}.ds-btn:hover{transform:translateY(-2px);background:#F7A8C8;border-color:#F7A8C8;color:#2A1436}.ds-btn:focus-visible{outline:2px solid #B5175E;outline-offset:3px}.ds-btn-primary{background:#2A1436;color:#FFF0F4}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Secondary action next to a primary on light.",
+      "html": "<a class=\"ds-btn ds-btn-ghost\" href=\"#\">How it works</a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font:600 16px/1 'Hanken Grotesk',system-ui,sans-serif;text-decoration:none;border:1.5px solid #2A1436;cursor:pointer;transition:transform .25s cubic-bezier(.2,.7,.2,1),background .25s,color .25s,border-color .25s}.ds-btn:hover{transform:translateY(-2px);background:#F7A8C8;border-color:#F7A8C8;color:#2A1436}.ds-btn:focus-visible{outline:2px solid #B5175E;outline-offset:3px}.ds-btn-ghost{background:transparent;color:#2A1436}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Primary action on night chapters.",
+      "html": "<div style=\"background:#2B1238;padding:24px\"><a class=\"ds-btn ds-btn-light\" href=\"#\">Watch on YouTube</a></div>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:8px;padding:14px 24px;border-radius:999px;font:600 16px/1 'Hanken Grotesk',system-ui,sans-serif;text-decoration:none;border:1.5px solid #2A1436;cursor:pointer;transition:transform .25s cubic-bezier(.2,.7,.2,1),background .25s,color .25s,border-color .25s}.ds-btn:hover{transform:translateY(-2px);background:#F7A8C8;border-color:#F7A8C8;color:#2A1436}.ds-btn:focus-visible{outline:2px solid #B5175E;outline-offset:3px}.ds-btn-light{background:#FFE9F1;color:#2A1436;border-color:#FFE9F1}"
+    },
+    {
+      "name": "Role Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill tags; the first is highlighted in pink.",
+      "html": "<ul class=\"ds-chips\"><li>Community builder</li><li>Strength coach</li><li>Podcast host</li></ul>",
+      "css": ".ds-chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0}.ds-chips li{padding:7px 14px;border-radius:999px;border:1.5px solid #2A1436;background:#fff;color:#2A1436;font:600 14px/1.2 'Hanken Grotesk',system-ui,sans-serif}.ds-chips li:first-child{background:#F7A8C8;border-color:#F7A8C8}"
+    },
+    {
+      "name": "Language Switch",
+      "kind": "nav",
+      "description": "EN/ET pill segmented control in the header.",
+      "html": "<nav class=\"ds-lang\"><a aria-current=\"page\" href=\"#\">EN</a><a href=\"#\">ET</a></nav>",
+      "css": ".ds-lang{display:inline-flex;padding:3px;border-radius:999px;border:1.5px solid rgba(42,20,54,.14);font:600 12px/1 'Hanken Grotesk',system-ui,sans-serif;letter-spacing:.08em}.ds-lang a{text-decoration:none;color:#2A1436;padding:7px 10px;border-radius:999px}.ds-lang a[aria-current]{background:#2A1436;color:#FFF0F4}.ds-lang a:not([aria-current]):hover{background:#FFDDE9}.ds-lang a:focus-visible{outline:2px solid #B5175E;outline-offset:3px}"
+    },
+    {
+      "name": "Pinned Fork Card",
+      "kind": "card",
+      "refersTo": "fork-card",
+      "description": "Tilted pastel card with a pushpin and marker scribble; straightens on hover.",
+      "html": "<article class=\"ds-fork\"><span class=\"ds-scribble\">opens Nov!</span><p class=\"ds-for\">For you</p><h3>Train with me</h3><p>In-person and online strength training for women.</p></article>",
+      "css": ".ds-fork{position:relative;display:grid;gap:14px;max-width:420px;padding:48px 32px 32px;border-radius:8px;background:#FFE39A;color:#2A1436;box-shadow:0 18px 40px -18px rgba(42,20,54,.45);transform:rotate(-1.2deg);transition:transform .35s cubic-bezier(.3,1.5,.5,1);font:400 17px/1.6 'Hanken Grotesk',system-ui,sans-serif}.ds-fork:hover{transform:rotate(0) translateY(-4px)}.ds-fork::before{content:'';position:absolute;top:14px;left:50%;width:18px;height:18px;margin-left:-9px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#7A3E8E,#2A1436 75%)}.ds-fork h3{margin:0;font:800 44px/.98 'Bricolage Grotesque',sans-serif;letter-spacing:-.04em}.ds-fork p{margin:0}.ds-for{font:700 12px/1 'Hanken Grotesk',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#6E5470}.ds-scribble{position:absolute;top:26px;right:22px;font:21px/1 'Permanent Marker',cursive;color:#B5175E;transform:rotate(6deg)}"
+    },
+    {
+      "name": "Taped Polaroid",
+      "kind": "custom",
+      "refersTo": "polaroid",
+      "description": "Photo on paper with a tape strip and marker caption.",
+      "html": "<figure class=\"ds-pola\"><div class=\"ds-ph\"></div><figcaption>A full table</figcaption></figure>",
+      "css": ".ds-pola{position:relative;margin:0;width:220px;background:#fff;padding:10px 10px 40px;border-radius:2px;box-shadow:0 18px 40px -18px rgba(42,20,54,.45);transform:rotate(2deg)}.ds-pola::before{content:'';position:absolute;top:-12px;left:50%;width:84px;height:24px;margin-left:-42px;background:rgba(255,227,154,.85);transform:rotate(-4deg)}.ds-ph{aspect-ratio:4/5;background:#FFDDE9}.ds-pola figcaption{position:absolute;left:10px;right:10px;bottom:9px;font:17px/1.2 'Permanent Marker',cursive;color:#2A1436}"
+    },
+    {
+      "name": "Offer Box",
+      "kind": "card",
+      "refersTo": "offer-box",
+      "description": "Flat list box with raspberry heading and pink dot bullets.",
+      "html": "<div class=\"ds-offer\"><h3>What you get</h3><ul><li>A strength plan that fits your week</li><li>Regular check-ins</li></ul></div>",
+      "css": ".ds-offer{max-width:360px;background:#fff;border:1px solid rgba(42,20,54,.14);border-radius:16px;padding:22px;color:#2A1436;font:400 17px/1.6 'Hanken Grotesk',system-ui,sans-serif}.ds-offer h3{margin:0 0 14px;font:700 12px/1 'Hanken Grotesk',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#B5175E}.ds-offer ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}.ds-offer li{position:relative;padding-left:26px}.ds-offer li::before{content:'';position:absolute;left:0;top:.5em;width:12px;height:12px;border-radius:50%;background:#F7A8C8}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Community Noticeboard",
+    "overview": "The site is the board outside a community kitchen: things pinned, taped and stuck to it by a real person. Name tags, taped polaroids, pushpin cards, round stickers and a flyer with tear-off strips carry the content. The objects are physical and slightly crooked; the type is loud, chunky and tight; the palette is soft pastel on a warm plum ink. It should feel hand-assembled and friendly, never corporate and never loud in colour.",
+    "keyCharacteristics": [
+      "Pastel pink and butter yellow on blush, with deep plum ink and plum \"night\" sections.",
+      "Chunky, tightly tracked Bricolage Grotesque display type, with italic Instrument Serif for the emotional word.",
+      "Real-world noticeboard objects: tape, pushpins, polaroids, stickers, name tags, a tear-off flyer.",
+      "Small tilts and one shared soft plum shadow on anything \"pinned\".",
+      "Pill-shaped buttons, chips and tags."
+    ],
+    "rules": [
+      {
+        "name": "The No-Neon Rule",
+        "body": "Brit hates neon. Every colour stays pastel or deep plum; no saturated electric hues, no glows, no gradients beyond the pink-to-butter podcast cover.",
+        "section": "colors"
+      },
+      {
+        "name": "The Raspberry-for-Text Rule",
+        "body": "Pink text on a light background is always pink-deep. pink is a fill, or text on night.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Tender Word Rule",
+        "body": "Instrument Serif italic marks a single emphasised word or short phrase inside a display line, in Raspberry Ink (or Bubblegum on night). Never a whole headline, never body copy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Marker-Is-Handwriting Rule",
+        "body": "Permanent Marker appears only where a person would have written by hand on the board: captions, notes, the name tag. Never for headings, buttons or paragraphs.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use pink-deep for any pink text on blush, paper or butter.",
+      "Do make new content look like something pinned to the board (paper, tape, pin, sticker, marker note) when it's a standalone object.",
+      "Do keep every button, chip and tag a pill.",
+      "Do give every animation a prefers-reduced-motion fallback that leaves content visible and still.",
+      "Do keep the focus ring: 2px pink-deep on light, pink on night, 3px offset."
+    ],
+    "donts": [
+      "Don't use neon, electric or fully saturated colours, or glows.",
+      "Don't use pink as text on a light background.",
+      "Don't set headlines or body copy in Permanent Marker or Instrument Serif.",
+      "Don't add a new shadow when the shared pinned shadow fits.",
+      "Don't add forms; contact stays as links (see PRODUCT.md)."
+    ]
+  }
+}
