@@ -35,6 +35,10 @@ assets/*-public.pdf  public CVs, EN and ET (no phone number)
 private/          questionnaire answers, CV source, ATS notes (gitignored, never published)
 ```
 
+## Cache busting
+
+GitHub Pages lets browsers cache files for 10 minutes. When you change `styles.css` or `main.js`, bump the `?v=` number on their links in `index.html`, `et/index.html` and `404.html`, so visitors never get new HTML with old CSS.
+
 ## Preview locally
 
 ```bash
