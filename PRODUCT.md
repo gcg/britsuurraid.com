@@ -40,7 +40,7 @@ Success: a visitor who wants a coach joins the waitlist (Instagram DM to @britig
 
 ## Brand Commitments
 
-- Name: Brit Suurraid. Line: "I give people a reason to show up."
+- Name: Brit Suurraid. Hero line: "Sinu teejuht tervislikuma elustiili poole." / "Your guide towards a healthier lifestyle." The older line "I give people a reason to show up." still appears in link previews.
 - Voice: hilarious, friendly, dedicated. Warm, plain, a little funny. First person.
 - Brit loves pastels (pink, butter yellow) and hates neon. Binding.
 - "Human touch, AI-assisted" describes workflows she actually runs; keep claims to what she can demonstrate.
