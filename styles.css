@@ -283,12 +283,6 @@ html.js .ecg:not(.is-in) path { stroke-dashoffset: 1; }
 .ring-fg { stroke: var(--pink); stroke-linecap: round; stroke-dasharray: 289.03; stroke-dashoffset: calc(289.03 * var(--ring, 1)); }
 .cert-name { font-weight: 700; font-size: 19px; overflow-wrap: anywhere; }
 .cert-meta { font: 500 14px/1.4 var(--body); color: var(--muted-ink); margin-top: 4px; }
-.log { border: 1px solid var(--line-ink); border-radius: 16px; padding: 20px 22px 8px; background: var(--paper); }
-.log-title { font: 700 12px/1 var(--body); letter-spacing: .14em; text-transform: uppercase; color: var(--pink-deep); margin-bottom: 12px; }
-.log dl > div { display: grid; grid-template-columns: minmax(0, 12em) 1fr; gap: 4px 16px; padding: 12px 0; border-top: 1px dashed var(--line-ink); }
-.log dt { font: 600 12px/1.5 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted-ink); }
-.log dd { font-weight: 600; }
-@media (max-width: 480px) { .log dl > div { grid-template-columns: 1fr; } }
 .training .btn { justify-self: start; }
 
 /* podcast */
@@ -371,6 +365,15 @@ html.js .ecg:not(.is-in) path { stroke-dashoffset: 1; }
 .offer-box.butter li::before { background: var(--butter); box-shadow: 0 0 0 1.5px var(--ink); }
 .coach-story { display: grid; gap: 16px; max-width: 38em; }
 .pull { margin: 8px 0; font: italic 400 clamp(24px, 2.8vw, 34px)/1.2 var(--serif); letter-spacing: -.01em; color: var(--pink-deep); text-wrap: balance; }
+.philosophy { display: grid; gap: 14px; padding-top: 32px; border-top: 1px solid var(--line-ink); }
+.philo-title { font: 800 clamp(30px, 3.6vw, 44px)/1 var(--display); letter-spacing: -.035em; text-wrap: balance; max-width: 16em; margin-bottom: 6px; }
+.philo-title .mini { display: block; margin-bottom: 12px; color: var(--pink-deep); }
+.philosophy > p { max-width: 38em; }
+.gives { display: grid; gap: 22px 28px; margin-top: 10px; }
+@media (min-width: 640px) { .gives { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.gives li { position: relative; padding-left: 28px; color: var(--muted-ink); }
+.gives li::before { content: ""; position: absolute; left: 0; top: .45em; width: 14px; height: 14px; border-radius: 50%; background: var(--pink); box-shadow: inset 0 0 0 3px var(--butter-soft), 0 0 0 1.5px var(--pink); }
+.gives b { display: block; margin-bottom: 4px; font: 800 20px/1.15 var(--display); letter-spacing: -.02em; color: var(--ink); }
 .coach-close { max-width: 38em; }
 .coach-close strong { font-weight: 700; }
 .coach-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; }
